@@ -19,13 +19,22 @@
 <div class="parent-container">
 <div class="containerL">
     <header class="header">
+        <section class="beige-section">
+            <img
+                class="beige"
+                src="assets/images/discount.svg"
+                alt="weight"
+                />
+            <label class="firstName">Pizza</label>
+            <label class="secondName">KMA</label>
+        </section>
         <div class="line1">
         <h4>(044)222 5 222</h4>
             <h6 id="timesWork">7 днів на тиждень|24 години</h6>
             <h6 id="freePizza">Безкоштовна доставка піци</h6>
             <button class="enterB">Ввійти</button>
         </div>
-        <hr style="margin: 0 5% 0 15%;">
+        <hr style=" margin: 2px 20px 10px 120px;">
         <div class="line2">
             <h4>Піца</h4>
             <button class="enterB">Ввійти</button></div>
@@ -82,7 +91,128 @@
 </div>
 
     <div class="containerR">
-        <h1>замовлення</h1>
+        <header class="header">
+            <div class="leftHead">
+                <label class='ordering' style="margin-top: 0; margin-left: 5%">Замовлення</label>
+                <label class="amountPizzasOrdered">4</label>
+            </div>
+            <div class="rightHead">
+                <button id="cleanAll">Очистити замовлення</button>
+            </div>
+        </header>
+        <div class="mainOrderPanel">
+            <section>
+                <div class="textPart">
+                    <div class="firstLineOrd">
+                        <h4 class="pizzaNameOrdered">BBQ (Мала)</h4>
+                    </div>
+                    <div class="secondLineOrd">
+                        <img
+                                class="size"
+                                src="assets/images/size-icon.svg"
+                                alt="size"
+                        />
+                        <label class="pizzaSize">30</label>
+                        <img
+                                class="weight"
+                                src="assets/images/weight.svg"
+                                alt="weight"
+                        />
+                        <label class="pizzaWeight">460</label>
+                    </div>
+                    <div class="thirdLineOrd">
+                        <label class="price">556грн</label>
+                        <button class="buttonM">-</button>
+                        <label class="amount">4</label>
+                        <button class="buttonP">+</button>
+                        <button class="buttonCancel">×</button>
+                    </div>
+                </div>
+                <div class="photoPart">
+                    <div class="halfPhoto">
+                        <img class="pizza" src="assets/images/pizza_2.jpg" alt="pizzaBBQ" />
+                    </div>
+                </div>
+            </section>
+            <hr style=" margin-top: 0; margin-bottom: 0">
+            <section>
+                <div class="textPart">
+                    <div class="firstLineOrd">
+                        <h4 class="pizzaNameOrdered">Россо Густо (Мала)</h4>
+                    </div>
+                    <div class="secondLineOrd">
+                        <img
+                                class="size"
+                                src="assets/images/size-icon.svg"
+                                alt="size"
+                        />
+                        <label class="pizzaSize">30</label>
+                        <img
+                                class="weight"
+                                src="assets/images/weight.svg"
+                                alt="weight"
+                        />
+                        <label class="pizzaWeight">400</label>
+                    </div>
+                    <div class="thirdLineOrd">
+                        <label class="price">189грн</label>
+                        <button class="buttonM">-</button>
+                        <label class="amount">1</label>
+                        <button class="buttonP">+</button>
+                        <button class="buttonCancel">×</button>
+                    </div>
+                </div>
+                <div class="photoPart">
+                    <div class="halfPhoto">
+                        <img class="pizza" src="assets/images/pizza_4.jpg" alt="pizzaRossoGusto" />
+                    </div>
+                </div>
+            </section>
+            <hr style=" margin-top: 0; margin-bottom: 0">
+            <section>
+                <div class="textPart">
+                    <div class="firstLineOrd">
+                        <h4 class="pizzaNameOrdered">Міксовий Поло (Велика)</h4>
+                    </div>
+                    <div class="secondLineOrd">
+                        <img
+                                class="size"
+                                src="assets/images/size-icon.svg"
+                                alt="size"
+                        />
+                        <label class="pizzaSize">40</label>
+                        <img
+                                class="weight"
+                                src="assets/images/weight.svg"
+                                alt="weight"
+                        />
+                        <label class="pizzaWeight">780</label>
+                    </div>
+                    <div class="thirdLineOrd">
+                        <label class="price">179грн</label>
+                        <button class="buttonM">-</button>
+                        <label class="amount">1</label>
+                        <button class="buttonP">+</button>
+                        <button class="buttonCancel">×</button>
+                    </div>
+                </div>
+                <div class="photoPart">
+                    <div class="halfPhoto">
+                        <img class="pizza" src="assets/images/pizza_1.jpg" alt="mixPolo" />
+                    </div>
+                </div>
+            </section>
+            <hr style=" margin-top: 0; margin-bottom: 0">
+        </div>
+        <footer class="footer">
+            <div class="ftLine1">
+                <label id="sum">Сума замовлення</label>
+                <label id="sumNum">924 грн</label>
+            </div>
+            <div class="ftLine2">
+                <button id="orderB">Замовити</button>
+            </div>
+        </footer>
     </div>
 </div>
 
