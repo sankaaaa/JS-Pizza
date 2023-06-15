@@ -39,19 +39,65 @@
             <h4>Піца</h4>
             <button class="enterB">Ввійти</button></div>
     </header>
+    <div class="mainPizzaContainer">
+        <nav class="nav text-center">
+          <div class="allPizzas">
+            <label id="all">Усі піци</label>
+            <label class="amountAll">8</label>
+          </div>
+            <div class="buttonNavigator">
+                <button id="allPizzasB" class="butOn">Усі</button>
+                <button id="wMeatB" class="butOff">М'ясні</button>
+                <button id="wPineappleB" class="butOff">З ананасом</button>
+                <button id="wMushroomB" class="butOff">З грибами</button>
+                <button id="wSeaB" class="butOff">З морепродуктами</button>
+                <button id="wVegaB" class="butOff">Вега</button>
+            </div>
+        </nav>
     <div class="row" id="pizza_list">
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail pizza-card">
-                <img src="assets/images/pizza_1.jpg">
+                <img src="assets/images/pizza_7.jpg">
+                <span class="new-label">Нова</span>
+                <div class="caption">
+                    <h3 style="color: orange; font-weight: bold; background-color: transparent">Імпреза</h3>
+                    <label class="pizzaType">М'ясна піца</label>
 
-                <div class="caption"><h3>Thumbnail label</h3>
-
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-
-                    <p>
-                        <a href="#" class="btn btn-primary">Button 2</a>
-                        <a href="#" class="btn btn-default">Button 1</a>
-                    </p>
+                    <p>Балик, салямі, курка, сир моцарелла, сир рокфорд, ананаси, томатна паста, петрушка</p>
+                    <div class="pizzaDetails">
+                        <div class="sizeLine">
+                            <div class="fp">
+                                <img class="size" src="assets/images/size-icon.svg" alt="size"/>
+                                <label class="pizzaSize">30</label>
+                            </div>
+                            <div class="sp">
+                                <img class="size" src="assets/images/size-icon.svg" alt="size"/>
+                                <label class="pizzaSize">40</label>
+                            </div>
+                        </div>
+                        <div class="weightLine">
+                            <div class="fp">
+                                <img class="size" src="assets/images/weight.svg" alt="weight"/>
+                                <label class="pizzaSize">370</label>
+                            </div>
+                            <div class="sp">
+                                <img class="size" src="assets/images/weight.svg" alt="weight"/>
+                                <label class="pizzaSize">660</label>
+                            </div>
+                        </div>
+                        <div class="priceLine">
+                            <label class="priceSmall">99</label>
+                            <label class="priceBig">169</label>
+                        </div>
+                        <div class="currLine">
+                            <label>грн.</label>
+                            <label>грн.</label>
+                        </div>
+                        <div class="buttonLine">
+                            <button class="btnSmallBuy">Купити</button>
+                            <button class="btnBigBuy">Купити</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,15 +105,47 @@
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail pizza-card">
                 <img src="assets/images/pizza_2.jpg">
+                <span class="popular-label">Популярна</span>
+                <div class="caption">
+                    <h3 style="color: orange; font-weight: bold; background-color: transparent">BBQ</h3>
+                    <label class="pizzaType">М'ясна піца</label>
 
-                <div class="caption"><h3>Thumbnail label</h3>
+                    <p>Мисливські ковбаски, ковбаски пепероні, шинка, сир домашній, шампіньйони, петрушка, оливки</p>
+                    <div class="pizzaDetails">
+                        <div class="sizeLine">
+                            <div class="fp">
+                                <img class="size" src="assets/images/size-icon.svg" alt="size"/>
+                                <label class="pizzaSize">30</label>
+                            </div>
+                            <div class="sp">
+                                <img class="size" src="assets/images/size-icon.svg" alt="size"/>
+                                <label class="pizzaSize">40</label>
+                            </div>
+                        </div>
+                        <div class="weightLine">
+                            <div class="fp">
+                                <img class="size" src="assets/images/weight.svg" alt="weight"/>
+                                <label class="pizzaSize">460</label>
+                            </div>
+                            <div class="sp">
+                                <img class="size" src="assets/images/weight.svg" alt="weight"/>
+                                <label class="pizzaSize">840</label>
+                            </div>
+                        </div>
+                        <div class="priceLine">
+                            <label class="priceSmall">139</label>
+                            <label class="priceBig">199</label>
+                        </div>
+                        <div class="currLine">
+                            <label>грн.</label>
+                            <label>грн.</label>
+                        </div>
+                        <div class="buttonLine">
+                            <button class="btnSmallBuy">Купити</button>
+                            <button class="btnBigBuy">Купити</button>
+                        </div>
+                    </div>
 
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-                    <p>
-                        <a href="#" class="btn btn-primary">Button 3</a>
-                        <a href="#" class="btn btn-default">Button 4</a>
-                    </p>
                 </div>
             </div>
         </div>
@@ -76,19 +154,157 @@
             <div class="thumbnail pizza-card">
                 <img src="assets/images/pizza_3.jpg">
 
-                <div class="caption"><h3>Thumbnail label</h3>
+                <div class="caption">
+                    <h3 style="color: orange; font-weight: bold; background-color: transparent">Міксовий Поло</h3>
+                    <label class="pizzaType">М'ясна піца</label>
 
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p>Вітчина, курка копчена, сир моцарела, ананаси, кукурудза, петрушка, соус томатний</p>
+                    <div class="pizzaDetails">
+                        <div class="sizeLine">
+                            <div class="fp">
+                                <img class="size" src="assets/images/size-icon.svg" alt="size"/>
+                                <label class="pizzaSize">30</label>
+                            </div>
+                            <div class="sp">
+                                <img class="size" src="assets/images/size-icon.svg" alt="size"/>
+                                <label class="pizzaSize">40</label>
+                            </div>
+                        </div>
+                        <div class="weightLine">
+                            <div class="fp">
+                                <img class="size" src="assets/images/weight.svg" alt="weight"/>
+                                <label class="pizzaSize">430</label>
+                            </div>
+                            <div class="sp">
+                                <img class="size" src="assets/images/weight.svg" alt="weight"/>
+                                <label class="pizzaSize">780</label>
+                            </div>
+                        </div>
+                        <div class="priceLine">
+                            <label class="priceSmall">115</label>
+                            <label class="priceBig">179</label>
+                        </div>
+                        <div class="currLine">
+                            <label>грн.</label>
+                            <label>грн.</label>
+                        </div>
+                        <div class="buttonLine">
+                            <button class="btnSmallBuy">Купити</button>
+                            <button class="btnBigBuy">Купити</button>
+                        </div>
+                    </div>
 
-                    <p>
-                        <a href="#" class="btn btn-primary">Button 5</a>
-                        <a href="#" class="btn btn-default">Button 6</a>
-                    </p>
                 </div>
             </div>
         </div>
     </div>
+
+        <div class="row" id="pizza_list2">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail pizza-card">
+                    <img src="assets/images/pizza_8.jpg">
+
+                    <div class="caption">
+                        <h3 style="color: orange; font-weight: bold; background-color: transparent">Дольче Маре</h3>
+                        <label class="pizzaType">Морська піца</label>
+
+                        <p>Креветки тигрові, мідії, ікра червона, філе червоної риби, сир моцарела, оливкова олія, вершки</p>
+                        <div class="pizzaDetails">
+                            <div class="sizeLine">
+                                <div class="sp">
+                                    <img class="size" src="assets/images/size-icon.svg" alt="size"/>
+                                    <label class="pizzaSize">40</label>
+                                </div>
+                            </div>
+                            <div class="weightLine">
+                                <div class="sp">
+                                    <img class="size" src="assets/images/weight.svg" alt="weight"/>
+                                    <label class="pizzaSize">845</label>
+                                </div>
+                            </div>
+                            <div class="priceLine">
+                                <label class="priceBig">399</label>
+                            </div>
+                            <div class="currLine">
+                                <label>грн.</label>
+                            </div>
+                            <div class="buttonLine">
+                                <button class="btnBigBuy">Купити</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail pizza-card">
+                    <img src="assets/images/pizza_4.jpg">
+
+                    <div class="caption">
+                        <h3 style="color: orange; font-weight: bold; background-color: transparent">Россо Густо</h3>
+                        <label class="pizzaType">Морська піца</label>
+
+                        <p>Вітчина, курка копчена, сир моцарела, ананаси, кукурудза, петрушка, соус томатний</p>
+                        <div class="pizzaDetails">
+                            <div class="sizeLine">
+                                <div class="fp">
+                                    <img class="size" src="assets/images/size-icon.svg" alt="size"/>
+                                    <label class="pizzaSize">30</label>
+                                </div>
+                                <div class="sp">
+                                    <img class="size" src="assets/images/size-icon.svg" alt="size"/>
+                                    <label class="pizzaSize">40</label>
+                                </div>
+                            </div>
+                            <div class="weightLine">
+                                <div class="fp">
+                                    <img class="size" src="assets/images/weight.svg" alt="weight"/>
+                                    <label class="pizzaSize">400</label>
+                                </div>
+                                <div class="sp">
+                                    <img class="size" src="assets/images/weight.svg" alt="weight"/>
+                                    <label class="pizzaSize">700</label>
+                                </div>
+                            </div>
+                            <div class="priceLine">
+                                <label class="priceSmall">189</label>
+                                <label class="priceBig">299</label>
+                            </div>
+                            <div class="currLine">
+                                <label>грн.</label>
+                                <label>грн.</label>
+                            </div>
+                            <div class="buttonLine">
+                                <button class="btnSmallBuy">Купити</button>
+                                <button class="btnBigBuy">Купити</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 </div>
+    <footer class="footer">
+        <section class="beigeDownSection">
+            <img
+                    class="beigeDown"
+                    src="assets/images/discount.svg"
+                    alt="discount"
+            />
+            <label class="firstNameF">цього</label>
+            <label class="secondNameF">тижня</label>
+            <label class="thirdNameF">на все</label>
+            <label class="fourthNameF"> - - - - - -</label>
+            <label class="fifthNameF">-20%</label>
+        </section>
+    </footer>
+</div>
+
+
+
+
+
 
     <div class="containerR">
         <header class="header">
@@ -134,7 +350,7 @@
                     </div>
                 </div>
             </section>
-            <hr style=" margin-top: 0; margin-bottom: 0">
+            <hr style=" margin-top: 10px; margin-bottom: 0">
             <section>
                 <div class="textPart">
                     <div class="firstLineOrd">
@@ -168,7 +384,7 @@
                     </div>
                 </div>
             </section>
-            <hr style=" margin-top: 0; margin-bottom: 0">
+            <hr style=" margin-top: 10px; margin-bottom: 0">
             <section>
                 <div class="textPart">
                     <div class="firstLineOrd">
@@ -202,7 +418,8 @@
                     </div>
                 </div>
             </section>
-            <hr style=" margin-top: 0; margin-bottom: 0">
+            <hr style=" margin-top: 10px; margin-bottom: 0">
+
         </div>
         <footer class="footer">
             <div class="ftLine1">
