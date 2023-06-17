@@ -2,6 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza</title>
 
     <!-- Bootsrap CSS -->
@@ -16,7 +17,7 @@
 </head>
 <body>
 <div id="cart"></div>
-<div class="parent-container">
+<div class="parent-container" id="parentCont">
 <div class="containerL">
     <header class="header">
         <section class="beige-section">
@@ -285,7 +286,11 @@
             </div>
         </div>
 </div>
-    <footer class="footer">
+    <footer class="footerM" style="justify-content: center">
+        <div class="footText" >
+            <label>Практичний проект в межах курсу JavaScript у Києво-Могилянській академії.</label>
+            <div id="noD"><label>Доставка піци не відбувається</label></div>
+        </div>
         <section class="beigeDownSection">
             <img
                     class="beigeDown"
@@ -301,12 +306,7 @@
     </footer>
 </div>
 
-
-
-
-
-
-    <div class="containerR">
+    <div class="containerR" id="contRight">
         <header class="header">
             <div class="leftHead">
                 <label class='ordering' style="margin-top: 0; margin-left: 5%">Замовлення</label>
